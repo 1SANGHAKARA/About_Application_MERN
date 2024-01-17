@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid magenta; */
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.link{
+    /* border: 3px solid green; */
+    padding: 2px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* background-color: rgb(129, 144, 163); */
+    color: black;
+}
